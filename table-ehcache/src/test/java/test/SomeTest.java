@@ -5,7 +5,7 @@ import util.SomeLogic;
 
 public class SomeTest {
 
-  @Test
+  @Test(expected = Exception.class)
   public void someTest() {
     SomeLogic o = new SomeLogic();
     o.go();
