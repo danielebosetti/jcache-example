@@ -33,6 +33,7 @@ public class UseEhCache {
 
     cache.put(100L, "val100");
     cache.put(200L, "val200");
+    cache.put(200L, "val201");
     
     cacheManager.close();
   }
